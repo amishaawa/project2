@@ -1,0 +1,164 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2.6;
+    background-color: pink;
+    padding: 200px;
+    text-align: center;
+
+}
+form button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form input[type="text"], form input[type="date"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+}
+form button:hover {
+    background-color: #0056b3;
+}
+
+.remove-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.remove-button:hover {
+    background-color: #c82333;
+}
+nav ul {
+    list-style-type:disc;
+    text-align: center;
+    background-color:red;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: inherit;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    background-color:red;
+    font-style: italic;
+    width: 100px;
+}
+
+nav ul li a:hover {
+    color: YELLOW;
+    background-color:red;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #233;
+    font-style: BOLD;
+}
+
+main {
+    max-width: 1800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.project {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type:square;
+}
+.Copyright{
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+.social-icon {
+    display: inline-block;
+    font-size: 20px;
+    color: #333;
+    margin-right: 10px;
+}
+
+.social-icon i {
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover i {
+    color: #0077b5; /* LinkedIn blue */
+}.social-icons {
+    margin-top: 20px;
+}.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}.footer-left {
+    flex: 1;
+}
+
+.footer-left h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    font-size: 14px;
+    color: #ccc;
+    text-align: left;
+}
+
+.footer-right {
+    flex: 1;
+    text-align: right;
+}
+.**{
+    font-style: italic;
+}
+h1{ font-style: italic; }
